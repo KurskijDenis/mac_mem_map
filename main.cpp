@@ -1,11 +1,10 @@
 #include <example.hpp>
 
 #include <mac_memory_mapping/file_descriptor_guard.hpp>
-#include <mac_memory_mapping/utils.hpp>
 #include <mac_memory_mapping/mmap_writer_ext.hpp>
+#include <mac_memory_mapping/utils.hpp>
 
 #include <iostream>
-
 
 int main() {
 	try {
